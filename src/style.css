@@ -1,0 +1,84 @@
+body {
+    background-color: gray;
+}
+
+#root {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cv-form {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.cv {
+    padding: 10px;
+    padding-right: 17px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    outline: none;
+}
+
+#firstName, #lastName {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#firstName::placeholder, #lastName::placeholder {
+    color: black;
+}
+
+#email, #phoneNumber {
+    font-size: 15px;
+}
+
+label {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.workForm input, .workForm textarea {
+    width: 100%;
+}
+
+.itemHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workForm input {
+    min-height: 20px;
+}
+
+textarea {
+    resize: none;
+    min-height: 100px;
+}
+
+ul {
+    padding: 0;
+}
+
+.eduForm input {
+    width: 100%;
+    min-height: 20px;
+}
