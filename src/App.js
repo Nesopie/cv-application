@@ -249,7 +249,7 @@ const WorkOverview = (props) => {
         <ul style={{listStyleType: "none"}}>
             {workExperiences.map((workExperience) => {
                 return (
-                    <li key={workExperience.id}>
+                    <li key={workExperience.id} className="listItem">
                         <div>
                             <div className="itemHeader">
                                 <span style={{fontWeight:"bold"}}>{workExperience.jobTitle} - {workExperience.company}</span>
@@ -271,7 +271,7 @@ const EducationOverview = (props) => {
         <ul style={{listStyleType: "none"}}>
             {educationArray.map((education) => {
                 return (
-                    <li key = {education.id}>
+                    <li key = {education.id} className="listItem">
                         <div className="itemHeader">
                             <span style={{fontWeight:"bold"}}>{education.degree} - {education.school}</span>
                             <span>{education.from} - {education.to}</span>

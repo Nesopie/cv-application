@@ -82,3 +82,8 @@ ul {
     width: 100%;
     min-height: 20px;
 }
+
+.listItem {
+    border-left: 3px solid #5865f2;
+    padding-left: 10px;
+}
